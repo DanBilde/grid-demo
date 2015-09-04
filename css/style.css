@@ -1,0 +1,32 @@
+body{
+    font-family:Verdana;
+}
+
+#span4{
+    width:30%;
+    height:auto;
+}
+
+.row{
+    margin-left:20px;
+    *zoom:1;
+}
+
+.row before, .row after{
+    display:table;
+    line-height: 0;
+    content:"";
+}
+
+.row:after{
+    clear:both;
+}
+
+.col-md-4{
+    margin-bottom:10px;
+}
+
+.col-md-4 img{
+    width:180px;
+    height:150px;
+}
